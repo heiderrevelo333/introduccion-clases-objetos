@@ -26,5 +26,37 @@ public class Motor {
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
     }
+    // Getters (LECTURA)
+    public String getTipo() {
+        return tipo;
+    }
+    public String getPotencia() {
+        return potencia;
+    }
+    public String getCilindrada() {
+        return cilindrada;
+    }
+    public String getMarca() {
+        return marca;
+    }
+    public String getModelo() {
+        return modelo;
+    }
+    // Setters (ESCRITURA)
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+    public void setPotencia(String potencia) {
+        this.potencia = potencia;
+    }
+    public void setCilindrada(String cilindrada) {
+        this.cilindrada = cilindrada;
+    }
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
 
 }

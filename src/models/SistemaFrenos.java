@@ -26,5 +26,37 @@ public class SistemaFrenos {
         System.out.println("Tambor: " + tambor);
         System.out.println("Estado: " + estado);
     }
+    // Getters (LECTURA)
+    public String getTipo() {
+        return tipo;
+    }
+    public String getDicos() {
+        return dicos;
+    }
+    public String getABS() {
+        return ABS;
+    }
+    public String getTambor() {
+        return tambor;
+    }
+    public String getEstado() {
+        return estado;
+    }
+    // Setters (ESCRITURA)
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+    public void setDicos(String dicos) {
+        this.dicos = dicos;
+    }
+    public void setABS(String ABS) {
+        this.ABS = ABS;
+    }
+    public void setTambor(String tambor) {
+        this.tambor = tambor;
+    }
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
 
 }

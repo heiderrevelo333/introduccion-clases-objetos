@@ -29,5 +29,44 @@ public class Chasis {
         System.out.println("Modelo: " + modelo);
         System.out.println("Año: " + año);
     }
+    // Getters (LECTURA)
+    public String getDimenciones() {
+        return dimenciones;
+    }
+    public String getPeso() {
+        return peso;
+    }
+    public String getMaterial() {
+        return material;
+    }
+    public String getMarca() {
+        return marca;
+    }
+    public String getModelo() {
+        return modelo;
+    }
+    public String getAño() {
+        return año;
+    }
+
+    // Setters (ESCRITURA)
+    public void setDimenciones(String dimenciones) {
+        this.dimenciones = dimenciones;
+    }
+    public void setPeso(String peso) {
+        this.peso = peso;
+    }
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+    public void setAño(String año) {
+        this.año = año;
+    }
 
 }

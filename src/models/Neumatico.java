@@ -23,5 +23,31 @@ public class Neumatico {
         System.out.println("Tamaño: " + tamaño);
         System.out.println("Peso: " + peso);
     }
+    // Getters (LECTURA)
+    public String getMarca() {
+        return marca;
+    }
+    public String getModelo() {
+        return modelo;
+    }
+    public String getTamaño() {
+        return tamaño;
+    }
+    public String getPeso() {
+        return peso;
+    }
+    // Setters (ESCRITURA)
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+    public void setTamaño(String tamaño) {
+        this.tamaño = tamaño;
+    }
+    public void setPeso(String peso) {
+        this.peso = peso;
+    }
 
 }

@@ -26,4 +26,36 @@ public class RegistroVehicular {
         System.out.println("Modelo: " + modelo);
         System.out.println("Fecha de registro: " + fecharegistro);
     }
+    // Getters (LECTURA)
+    public String getMatricula() {
+        return matricula;
+    }
+    public String getPropietario() {
+        return propietario;
+    }
+    public String getMarca() {
+        return marca;
+    }
+    public String getModelo() {
+        return modelo;
+    }
+    public String getFecharegistro() {
+        return fecharegistro;
+    }
+    // Setters (ESCRITURA)
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+    public void setPropietario(String propietario) {
+        this.propietario = propietario;
+    }
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+    public void setFecharegistro(String fecharegistro) {
+        this.fecharegistro = fecharegistro;
+    }
 }

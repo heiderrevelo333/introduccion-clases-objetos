@@ -24,5 +24,31 @@ public class Mantenimiento {
         System.out.println("Kilometraje: " + kilometraje);
         System.out.println("Costo: " + costo);
     }
+    // Getters (LECTURA)
+    public String getTipoMantenimiento() {
+        return tipoMantenimiento;
+    }
+    public String getFecha() {
+        return fecha;
+    }   
+    public String getKilometraje() {
+        return kilometraje;
+    }
+    public String getCosto() {
+        return costo;
+    }
+    // Setters (ESCRITURA)
+    public void setTipoMantenimiento(String tipoMantenimiento) {
+        this.tipoMantenimiento = tipoMantenimiento;
+    }
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+    public void setKilometraje(String kilometraje) {
+        this.kilometraje = kilometraje;
+    }
+    public void setCosto(String costo) {
+        this.costo = costo;
+    }   
 
 }

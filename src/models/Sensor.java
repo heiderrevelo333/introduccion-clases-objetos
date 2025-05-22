@@ -30,5 +30,43 @@ public class Sensor {
         System.out.println("Estado del motor: " + estadoMotor);
         System.out.println("Estado de los neumáticos: " + estadoNeumaticos);
     }
+    // Getters (LECTURA)
+    public String getVelocidad() {
+        return velocidad;
+    }
+    public String getTemperatura() {
+        return temperatura;
+    }
+    public String getPresion() {
+        return presion;
+    }
+    public String getNivelCombustible() {
+        return nivelCombustible;
+    }
+    public String getEstadoMotor() {
+        return estadoMotor;
+    }
+    public String getEstadoNeumaticos() {
+        return estadoNeumaticos;
+    }
+    // Setters (ESCRITURA)
+    public void setVelocidad(String velocidad) {
+        this.velocidad = velocidad;
+    }
+    public void setTemperatura(String temperatura) {
+        this.temperatura = temperatura;
+    }
+    public void setPresion(String presion) {
+        this.presion = presion;
+    }
+    public void setNivelCombustible(String nivelCombustible) {
+        this.nivelCombustible = nivelCombustible;
+    }
+    public void setEstadoMotor(String estadoMotor) {
+        this.estadoMotor = estadoMotor;
+    }
+    public void setEstadoNeumaticos(String estadoNeumaticos) {
+        this.estadoNeumaticos = estadoNeumaticos;
+    }
 
 }
